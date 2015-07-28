@@ -17,4 +17,6 @@ class NotFoundPage extends BasePage
 
 $page = new NotFoundPage();
 $page->Page();	
+
+// Hello...!
 ?>
