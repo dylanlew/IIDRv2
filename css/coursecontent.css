@@ -1,0 +1,15 @@
+#header-schedule table, #tab-schedule table
+{
+    border-collapse: collapse;
+    margin-top: 0.5em;
+    width: 100%;
+}
+#header-schedule
+{	float: right;
+	width: 300px;
+}
+#header-schedule table td, #tab-schedule table td
+{
+    border-bottom: 1px dotted #B5B4C5;
+    padding: 0.3em 0.8em;
+}

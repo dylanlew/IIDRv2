@@ -1,0 +1,10 @@
+form#mmEmbedForm
+{	padding: 10px 0px;
+	width: 800px;
+	background-color: #FFD;
+	border: 1px solid #DDB;
+}
+form#mmEmbedForm textarea
+{	width: 400px;
+	height: 100px;
+}

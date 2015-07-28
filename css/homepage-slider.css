@@ -1,0 +1,50 @@
+.carousel { height: 348px; overflow: hidden; background: #262626; }
+	.carousel .wrap { position: relative; }
+		.slide-caption { position: relative; z-index: 10; float: left; width: 456px; height:348px;
+			background-image: url(../img/template/vignette.png);
+			background-position: left top;
+			background-repeat: no-repeat; 
+			font-family: 'Merriweather', serif; }
+			
+			.slide-caption h2 { margin-bottom: 30px; color: #fff; font-size: 38px; line-height: 1.21;font-weight:900; }
+				.slide-caption h2 a { color: #fff; text-decoration: none; }
+				
+			.slide-caption p { font-size:20px; color:#000;}
+			.slide-caption p.more { }
+			.slide-caption p.more a { color:#fff; }
+						
+		.carousel-image { position: absolute; right: 0; }
+	.carousel-item { position: relative; }	
+	.carousel-item-secondary { display: none; }
+
+/*-------------------------------------------
+    Homepage Caraousel
+-------------------------------------------*/
+
+* html .carousel { height: 348px !important; }
+* html .slide-caption { background-image: none !important; height: 220px; }
+* html .carousel-item { height: 348px; }
+
+.carousel-controls { position: absolute; z-index: 100; left: 50%; bottom: 5px; width: 98px; height: 32px; margin-left: -483px; overflow: hidden; }
+* html .carousel-controls { bottom: 20px; }
+	.carousel-controls a { float: left; width: 32px; height: 32px; background-image: url(../img/template/controls-carousel.gif); text-indent:-99999px; }
+	.carousel-controls .next { background-position: -99px -32px; border-left: 1px solid #333; }
+	.carousel-controls .next:hover { background-position: -99px 0; border-color: #ccc; }
+	.carousel-controls .previous { background-position: 0 -32px; }
+	.carousel-controls .previous:hover { background-position: 0 0; }
+	.carousel-controls .pause { background-position: -33px -32px; border-left: 1px solid #333; }
+	.carousel-controls .pause:hover { background-position: -33px 0; border-color: #ccc; }
+	.carousel-controls .play { position: relative; bottom: auto; left: auto; background-position: -66px -32px; border-left: 1px solid #333;}
+	.carousel-controls .play:hover { background-position: -66px 0; border-color: #ccc; }
+
+.carousel .prev-image { position: absolute; left: -978px; top: 0; opacity: 0.2; }
+.carousel .next-image { position: absolute; top: 0; right: -978px; opacity: 0.2; }
+
+.wrap {
+	margin:0 auto;
+	width:978px;
+	height:348px;
+}
+.slide-caption-inner {
+	padding:40px;
+}

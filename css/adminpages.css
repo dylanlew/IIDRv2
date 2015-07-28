@@ -1,0 +1,18 @@
+form.pageedit input.num
+{	width: 2em;
+}
+table#pagelist tr.child td
+{	background-color: #FFC;
+}
+table#pagelist tr.child td.pagetitle
+{	padding-left: 20px;
+}
+table#pagelist tr.child2 td.pagetitle
+{	padding-left: 40px;
+}
+table#pagelist tr.child3 td.pagetitle
+{	padding-left: 60px;
+}
+table#pagelist tr.child4 td.pagetitle
+{	padding-left: 80px;
+}

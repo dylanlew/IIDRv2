@@ -1,0 +1,24 @@
+#gal_modal_popup
+{	padding-bottom: 5px;
+	width: 640px;
+	margin-left: -320px;
+	top: 10px;
+	height: 600px;
+}
+#galModalInner
+{	height: 500px;
+	overflow:auto;
+}
+#galModalInner .showgallery
+{	list-style: none;
+	margin-top: 10px;
+}
+#galModalInner .showgallery>li
+{	list-style: none;
+	border-top: 1px solid #666;
+	padding: 5px 10px;
+}
+#galModalInner .showgallery>li h4
+{	height: auto;
+	margin: 0px 0px 5px;
+}

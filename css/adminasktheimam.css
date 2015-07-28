@@ -1,0 +1,14 @@
+td.atiTableAnswer h4
+{	margin: 0px;
+	padding: 0px;
+	font-weight: bold;
+	font-size: 12px;
+}
+table.ati_display
+{	width: 800px;
+}
+table.ati_display td.ati_label
+{	font-style: italic;
+	text-align: right;
+	width: 150px;
+}

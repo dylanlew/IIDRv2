@@ -1,0 +1,19 @@
+#post_listing_container h1
+{	padding-left: 20px;
+}
+#post_listing_container h1 #h1Text
+{	display: block;
+	float: left;
+	width: 600px;
+}
+#post_listing_container .the-content
+{	padding: 10px 20px;
+}
+#post_listing_container .the-content
+{	padding: 10px 20px;
+}
+
+.post-image
+{	width: 655px;
+	margin: 10px 0px;
+}

@@ -1,0 +1,53 @@
+
+#myacBookingDetails
+{	font-style: italic;
+	margin-bottom: 5px;
+	padding: 0px 10px 5px;
+	border-bottom: 2px solid #044D64;
+}
+
+#myacBookingCourse
+{	padding: 10px;
+}
+#myacBookingCourse #myacbcHeader
+{	width: 100%;
+}
+#myacBookingCourse #myacbcHeader #courseTitle
+{	float: left;
+}
+#myacBookingCourse #myacbcHeader #courseTitle h2
+{	float: left;
+	width: 400px;
+	color: #A22A2B;
+}
+#myacBookingCourse #myacbcHeader #courseTitle #courseDates
+{	float: left;
+	width: 280px;
+	font-size: 14px;
+	text-align: right;
+}
+#myacBookingCourse #myacbcHeader #courseThumb
+{	float: right;
+	width: 235px;
+	height: 145px;
+}
+#myacBookingCourse #myacbcHeader #courseVenue
+{	float: left;
+	width: 650px;
+	position: relative;
+}
+#myacBookingCourse #myacbcHeader #courseVenueAddress
+{	float: left;
+	width: 240px;
+}
+#myacBookingCourse #myacbcHeader #mapContainer
+{	width: 400px;
+	height: 400px;
+	float: right;
+}
+
+#myacbcBody
+{	float: left;
+	width: 660px;
+	margin-right: 25px;
+}

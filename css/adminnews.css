@@ -1,0 +1,52 @@
+#stories, #vid-list
+{	margin: 10px auto;
+	width: 700px;
+}
+#stories h3
+{	float: right;
+}
+#stories table
+{	width: 600px;
+}
+#stories table tr.livenews td
+{	font-weight: bold;
+}
+.newsform
+{	width: 900px;
+}
+.imageform
+{	width: 500px;
+}
+.imageform label
+{	width: 200px;
+}
+div.viewimage
+{	margin: 5px auto;
+	border: 3px solid #AAA;
+	width: 300px;
+	padding: 10px;
+	text-align: center;
+}
+#vid-delete
+{	text-align: right;
+	width: 600px;
+	font-weight: bold;
+}
+#vid-list li
+{	border: 4px solid #AAA;
+	margin: 5px;
+	padding: 8px;
+	width: 170px;
+	text-align: center;
+	display: block;
+	float: left;
+}
+#newsuses
+{	font-size: 16px;
+}
+#newsuses ul li
+{	margin: 5px 10px;
+}
+#newsuses ul li a
+{	font-weight: bold;
+}

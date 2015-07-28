@@ -1,0 +1,27 @@
+table.adminDetailsHeader
+{	width: 900px;
+}
+table.adminDetailsHeader td
+{	width: 550px;
+}
+table.adminDetailsHeader td.label
+{	width: 300px;
+}
+
+table.grantsCosts
+{	width: 704px;
+}
+table.grantsCosts td.gctLabel
+{	width: 400px;
+}
+table.grantsCosts td.gctAmount
+{	width: 120px;
+	text-align: right;
+}
+table.grantsCosts td.gctDetails h4
+{	margin: 0px 0px 3px;
+}
+table.grantsCosts tr.gctTotals td
+{	font-weight: bold;
+	font-size: 14px;
+}

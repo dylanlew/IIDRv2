@@ -1,0 +1,25 @@
+form.seform label
+{	width: 150px;
+}
+form.seform textarea
+{	width: 400px;
+	height: 400px;
+}
+table#semHistory
+{	width: 250px;
+}
+#ems_modal_popup
+{	padding-bottom: 20px;
+	width: 500px;
+	margin-left: -250px;
+	top: 20px;
+}
+#ems_popup_inner
+{	width: 400px;
+	height: 450px;
+	border: 1px solid #CCC;
+	overflow: auto;
+}
+#ems_popup_inner li
+{	cursor: pointer;
+}

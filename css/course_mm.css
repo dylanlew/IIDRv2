@@ -1,0 +1,18 @@
+ul.coursemmList, ul.coursemmList ul
+{	list-style: none;
+}
+ul.coursemmList a
+{	cursor: pointer;
+}
+ul.coursemmList>li h3
+{	
+}
+ul.coursemmList>li>ul
+{	display: none;
+}
+ul.coursemmList>li.selected>ul
+{	display: block;
+}
+ul.coursemmList>li>ul>li.added
+{	display: none;
+}
