@@ -16,7 +16,5 @@ class NotFoundPage extends BasePage
 } // end of defn NotFoundPage
 
 $page = new NotFoundPage();
-$page->Page();	
-
-// Hello...!
+$page->Page();
 ?>
